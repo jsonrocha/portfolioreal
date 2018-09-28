@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+nav {
+  height: 50px;
+  background-color: #4EA699;
+  display: flex;
+  flex-direction: row;
+
+}
+
+header {
+  background-color: #8BE8CB;
+  height: 340px;
+}
+
+body {
+  background-color: snow;
+  color: white;
+}
+
+ol {
+  margin: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.fa {
+  padding: 4px;
+  width: 200px;
+}
+
+.fa::before {
+  display: inline-block;
+  width: 1.28571429em;
+  text-align: center;
+}
